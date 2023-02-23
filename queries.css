@@ -1,0 +1,313 @@
+/************************************************/
+/* 1185px */
+/************************************************/
+@media (max-width: 74.5em) {
+  html {
+    /* 9px /16 = 0.5625 = 56.24% */
+    font-size: 56.25%;
+  }
+  .img-background {
+    top: -10rem;
+    right: -10rem;
+
+    width: 436px;
+    height: 700px;
+  }
+  .course-members {
+    top: 7.5rem;
+  }
+}
+/************************************************/
+/* 1040px */
+/************************************************/
+@media (max-width: 65em) {
+  html {
+    /* 8px /16 = 0.5 = 50% */
+    font-size: 50%;
+  }
+  .img-background {
+    top: -25rem;
+    right: -10rem;
+  }
+
+  .course-members {
+    top: 7.5rem;
+    left: 26rem;
+  }
+  .skill-budget-div {
+    gap: 24rem;
+  }
+  .courses-box-grid {
+    column-gap: 2rem;
+  }
+
+  .grid-boxes-heading {
+    font-size: 2.1rem;
+  }
+  .grid-boxes-text {
+    font-size: 1.8rem;
+  }
+
+  .popular-courses {
+    font-size: 3rem;
+    line-height: 6rem;
+    padding: 6rem;
+  }
+  .grid-boxes-started {
+    margin-bottom: 4rem;
+  }
+  .skill-budget-img {
+    width: 32rem;
+  }
+  .skill-budget-heading {
+    font-size: 5.2rem;
+  }
+  .skill-budget-box-text {
+    font-size: 1.8rem;
+  }
+  .get-started-btn {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    border-radius: 2.8rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+}
+/************************************************/
+/* 992px */
+/************************************************/
+@media (max-width: 62em) {
+  html {
+    /* 7px /16 = 0.4375 = 43.75% */
+    font-size: 43.75%;
+  }
+  .img-background {
+    top: -57rem;
+    right: -22rem;
+    width: 330px;
+    height: 1113px;
+  }
+
+  .course-members {
+    top: -0.5rem;
+    left: 25rem;
+  }
+
+  .grid-boxes-heading {
+    margin-top: 7rem;
+  }
+  .popular-courses {
+    font-size: 2.8rem;
+    line-height: 6rem;
+    padding: 5rem;
+  }
+  .skill-budget-img {
+    width: 35rem;
+  }
+  .skill-budget-img-div {
+    justify-self: end;
+  }
+  .skill-budget-heading {
+    font-size: 5rem;
+  }
+  .skill-budget-box-text {
+    font-size: 1.6rem;
+  }
+  .get-started-btn {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    border-radius: 2.8rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+/************************************************/
+/* 768px */
+/************************************************/
+@media (max-width: 48em) {
+  .img-background {
+    top: -32rem;
+    right: -14rem;
+    width: 300px;
+    height: 688px;
+  }
+  .skill-budget-img {
+    width: 238px;
+    height: 330px;
+  }
+  .skill-budget-div {
+    grid-template-columns: 384.5px 304.5px;
+
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+  }
+  .skill-budget-img-div {
+    justify-self: center;
+  }
+  .skill-budget-heading {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .skill-budget-box-text {
+    width: 39rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+  .get-started-div,
+  .get-started-footer {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .courses-box-grid {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .grid-boxes {
+    width: 339px;
+    height: 259px;
+    padding-top: 8rem;
+    padding-left: 5rem;
+  }
+  .main-grid-box {
+    width: 339px;
+    height: 259px;
+  }
+  .popular-courses {
+    width: 286px;
+    height: 64px;
+  }
+  .grid-boxes-heading {
+    margin-top: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.6rem;
+  }
+  .grid-boxes-text {
+    font-size: 2rem;
+    line-height: 26px;
+    width: 286px;
+    height: 78px;
+    margin-bottom: 2.4rem;
+  }
+  .course-hours {
+    top: 40rem;
+    left: 1rem;
+  }
+}
+/************************************************/
+/* 576px */
+/************************************************/
+@media (max-width: 36em) {
+  html {
+    /* 6px /16 = 0.375 = 37.5% */
+    font-size: 37.5%;
+  }
+  .skill-budget-box {
+    width: 400px;
+    font-size: 4rem;
+  }
+
+  .skill-budget-div {
+    grid-template-columns: 400px;
+    gap: 8rem;
+  }
+  .img-background {
+    opacity: 0;
+  }
+  .skill-budget-img {
+    display: none;
+  }
+  .cirle-img {
+    display: block;
+  }
+  .course-members {
+    top: -3rem;
+    left: 34rem;
+  }
+  .course-hours {
+    top: 35rem;
+    left: -4rem;
+  }
+  .courses-box-grid {
+    grid-template-columns: 400px;
+    justify-content: center;
+  }
+  .main-grid-box {
+    width: 400px;
+    height: 120px;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 800;
+  }
+  .grid-boxes {
+    width: 400px;
+    height: 230px;
+  }
+}
+/************************************************/
+/* 375px */
+/************************************************/
+@media (max-width: 23.5em) {
+  html {
+    /* 5px /16 = 0.3125 = 31.25% */
+    font-size: 31.25%;
+  }
+  .get-started-div {
+    justify-content: space-between;
+  }
+  .get-started {
+    font-size: 1.6rem;
+  }
+  .skilled {
+    font-size: 2.8rem;
+  }
+
+  .skill-budget-box {
+    width: 300px;
+    font-size: 40px;
+    justify-self: center;
+  }
+  .main-grid-box {
+    width: 343px;
+  }
+  .courses-box-grid {
+    width: 343px;
+    grid-template-columns: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-boxes {
+    width: 343px;
+  }
+  .grid-boxes-text {
+    width: 286px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+}
+/************************************************/
+/* 320px */
+/************************************************/
+@media (max-width: 20em) {
+  .main-grid-box {
+    width: 270px;
+  }
+  .grid-boxes {
+    width: 270px;
+    height: 200px;
+  }
+  .grid-boxes-text {
+    width: 200px;
+    height: 78px;
+    font-size: 1.4rem;
+  }
+}
